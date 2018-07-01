@@ -1,6 +1,3 @@
-from dl import hello
+import dl.dlmod as dl
 
-message = 'fuck you'
-
-response = hello(message)
-print(response)
+dl.modfunc()
